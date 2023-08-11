@@ -3,7 +3,7 @@
 clear;
 
 # Chargement des données
-# A = load("classif_data/gmm3d.asc");
+# A = load("gmm3d.asc");
 
 # Décommenter les deux lignes suivantes pour exécuter l'algo sur n dimensions :
 n = 5;
