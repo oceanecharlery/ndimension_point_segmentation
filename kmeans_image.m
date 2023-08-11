@@ -4,7 +4,7 @@ clear;
 pkg load image;
 
 # Lecture de l'image et redimensionnement :
-I = double(imread('img_data/Silhouette.jpg'));
+I = double(imread('Silhouette.jpg'));
 I = imresize(I,[250 250]);
 # Passer l'image à plat
 A = reshape(I,[size(I,1) * size(I,2), size(I,3) ]);
